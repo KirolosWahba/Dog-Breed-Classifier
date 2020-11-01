@@ -1,17 +1,11 @@
 # Udacity MLND Capstone Project Dog Breed Classifier
 
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square&logo=appveyor)](https://www.python.org/)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&logo=appveyor)](https://lbesson.mit-license.org/)
-
-![Screenshot_webapp_result](https://user-images.githubusercontent.com/32474126/74354084-21d43580-4dbb-11ea-8209-4e03e9e0ecb4.png)
 
 ## Project description
 
 In this project I developed a CNN for the recognition of dog breeds.
 Based on a picture of a dog, an algorithm will give an estimate of the breed of the dog.
 If the image of a person is given, the algorithm should reproduce the most similar dog breed.
-
-I have also developed a web application to facilitate access for users. This web application was developed with Flask and made available on AWS Beanstalk.
 
 ## Requirements
 
@@ -54,10 +48,3 @@ When all dependencies are installed, you can start the Jupyter Notebook `dog_app
 
 If you want to know more about the project then have a look at my project report `report.pdf` and the Juypter Notebook `dog_app.ipynb`.
 
-## Webapp
-
-This web application was developed with Flask and optimized for AWS Beanstalk and prepared for use. In this simple application I provide the trained model for the prediction. The user can simply upload an image and it will be forwarded to the result page after the inference/prediction process. On this page the user is shown the results and the uploaded image.
-
-You can find the complete webapp and more informations in the folder `webapp`
-
-![Screenshot Webapp](https://user-images.githubusercontent.com/32474126/74352894-72e32a00-4db9-11ea-8f9d-fd0261802ad9.png)
